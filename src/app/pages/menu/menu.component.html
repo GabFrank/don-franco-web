@@ -1,0 +1,41 @@
+<div fxLayout="column" style="width: 100%; height: 100%">
+  <div fxFlex="20" fxLayout="row" fxLayoutAlign="space-arround center">
+    <div fxFlex="25%"></div>
+    <div fxFlex="50" style="text-align: center">
+      <img
+        style="
+          height: 50px;
+          width: 50px;
+          padding-top: 10px;
+          -webkit-filter: invert(1);
+          filter: invert(1);
+        "
+        src="/assets/logo.png"
+        alt="logo"
+      />
+    </div>
+    <div fxFlex="25" style="text-align: center">
+      <mat-icon style="font-size: 2.5em" (click)="onClear()">clear</mat-icon>
+    </div>
+  </div>
+  <div fxFlex="50" fxLayout="column" fxLayoutAlign="center center">
+    <div class="item" (click)="goTo('inicio')">
+      <div>Inicio</div>
+    </div>
+    <div class="item" (click)="goTo('menu')">
+      <div>Menú</div>
+    </div>
+    <div class="item" (click)="goTo('cervezas')">
+      <div>Cervezas</div>
+    </div>
+    <div class="item" (click)="goTo('reservas')">
+      <div>Reservas</div>
+    </div>
+    <div class="item" (click)="goTo('nosotros')">
+      <div>Nosotros</div>
+    </div>
+    <div class="item" (click)="goTo('contacto')">
+      <div>Contacto</div>
+    </div>
+  </div>
+</div>

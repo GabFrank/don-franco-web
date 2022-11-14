@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+.btn-inicio {
+  border-radius: 20%;
+  background-color: black !important;
+  color: white;
+  width: 80%;
+}
+
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.carousel-slide {
+  width: 100px !important;
+}
+
+
+.down-arrow {
+  position: absolute;
+  bottom: calc(var(--arrowBottom, 0px) - 10px);
+  left: calc(50%);
+  width: 0;
+  height: 30px;
+  mix-blend-mode: difference;
+  filter: invert(100%);
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  bottom: 30px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-bottom: 0;
+  }
+
+  50% {
+    margin-bottom: 20px;
+  }
+
+  100% {
+    margin-bottom: 0;
+  }
+}
+
+.down-up {
+  position: absolute;
+  top: 100px;
+  left: calc(50%);
+  width: 0;
+  height: 30px;
+  filter: invert(100%);
+  mix-blend-mode: difference;
+  animation: jumpInfiniteUp 1.5s infinite;
+}
+
+.down-up:after {
+  content: " ";
+  position: absolute;
+  bottom: 20px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(-135deg);
+}
+
+@keyframes jumpInfiniteUp {
+  0% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}

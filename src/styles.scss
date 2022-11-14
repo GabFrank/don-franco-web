@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: black;}
+body { margin: 0; font-family: 'Rubik-Italic-VariableFont_wght'; }
+
+
+@font-face {
+    font-family: "BERNIERShade-Regular";
+    src: local("BERNIERShade-Regular"), url(./assets/fonts/BERNIERShade-Regular.ttf.woff) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: local("Montserrat-Regular"), url(./assets/fonts/Montserrat-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: local("Montserrat-Medium"), url(./assets/fonts/Montserrat-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: local("Montserrat-Black.ttf"), url(/./assets/fonts/Montserrat-Black.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: "KeepCalm-Medium";
+  src: local("KeepCalm-Medium.ttf"), url(/./assets/fonts/KeepCalm-Medium.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: "HWT-Artz-W00-Regular";
+  src: local("HWT-Artz-W00-Regular.ttf"), url(/./assets/fonts/HWT-Artz-W00-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: "Rubik-Italic-VariableFont_wght";
+  src: local("Rubik-Italic-VariableFont_wght.ttf"), url(/./assets/fonts/Rubik-Italic-VariableFont_wght.ttf) format("truetype")
+}
+
